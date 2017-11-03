@@ -38,11 +38,13 @@ d | 23%  | 23%
 
 ### 插入代码
 
-`image = cv::imresize( image, 300, 300 );  '
+`image = cv::imresize( image, 300, 300 );`
 
 ```python
      logits1 = fully_connected(expanded_output, dim_dec, 'dec_fc', group_id=1)
      logits1 = nonlinear(logits1, 'tanh')
      logits1 = dropout(logits1, 0.5, is_train)  
  ```
+ ### 插入公式
+ 用 latex online 生产图片, 导入Github
 
