@@ -1,1 +1,7 @@
-先水一下。。。
+### Deep Learning
+
+## cnn
+## LSTM
+
+# 3bog
+hello word !
