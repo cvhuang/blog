@@ -32,6 +32,17 @@ d | 23%  | 23%
 
 ### 插入图片
 * 首先将图片上传到Github
-* '![image](https://github.com/cvhuang/blog/blob/gh-pages/images/download-sprite.png)'
-![image](https://github.com/cvhuang/blog/blob/gh-pages/images/download-sprite.png)
+* 然后 ![image] (https://github.com/cvhuang/blog/blob/master/20170524173833525516.png)
+示例
+![image](https://github.com/cvhuang/blog/blob/master/20170524173833525516.png)
+
+### 插入代码
+
+`image = cv::imresize( image, 300, 300 );  '
+
+```python
+     logits1 = fully_connected(expanded_output, dim_dec, 'dec_fc', group_id=1)
+     logits1 = nonlinear(logits1, 'tanh')
+     logits1 = dropout(logits1, 0.5, is_train)  
+ ```
 
